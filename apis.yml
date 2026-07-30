@@ -1,19 +1,51 @@
 aid: letel
-name: letel
-description: letel is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/letel.png
+name: Letel
+description: >-
+  Shanghai Letel Communication Equipment (Group) Co., Ltd. (上海乐通通信设备（集团）股份有限公司)
+  is a Chinese manufacturer of information and communication network
+  infrastructure, founded in March 1992 and headquartered in Shanghai with over
+  1,500 employees and 20+ service locations nationwide. Letel builds data center
+  physical infrastructure — cabinet micromodules, cold aisle micromodules,
+  containerized micromodules, pallet IT cabins, and cabinets — alongside
+  communication cabling equipment, optical communication devices, data
+  communication equipment, broadband access equipment, and structural components
+  for notebooks and servers. It operates through subsidiaries including Zhongle
+  Communication Technology Co., Ltd. Letel publishes no public API, developer
+  portal, or developer documentation; this is a company profile in the API
+  Evangelist network, surfaced as a Qiming Venture Partners portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/letel/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - qiming
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: enriched-no-public-api
+x-api-surface: none
+x-api-surface-checked: '2026-07-19'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Data Centers
+- Networking
+- Telecommunications
+- Hardware
+- Manufacturing
+- Infrastructure
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,20 @@ maintainers:
 common:
 - type: Website
   url: https://letel.com.cn
+- type: About
+  url: https://letel.com.cn/page-56169.html
+- type: Products
+  url: https://letel.com.cn/cate-56166.html
+- type: Blog
+  url: https://letel.com.cn/list-56165.html
+- type: Support
+  url: https://letel.com.cn/page-56167.html
+- type: DomainSecurity
+  url: security/letel-domain-security.yml
+- type: LLMsTxt
+  url: llms/letel-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
