@@ -1,0 +1,30 @@
+generated: '2026-07-19'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml hosts
+notes: >-
+  letel.com.cn sits behind a JavaScript bot-check WAF that returns 403 to HEAD
+  and non-browser requests, so the automated HTTP probe under-reported HTTPS.
+  TLS was confirmed directly with an openssl s_client handshake. HSTS could not
+  be observed because the WAF rejects the request before response headers are
+  emitted; recorded as unknown rather than false.
+hosts:
+- host: letel.com.cn
+  https: true
+  tls_version: TLSv1.3
+  tls_verify: ok
+  cert_issuer: Sectigo Public Server Authentication CA DV R36
+  cert_not_after: '2027-01-18'
+  hsts: unknown
+  hsts_note: WAF returns 403 to header probes
+domains:
+- domain: letel.com.cn
+  dnssec: false
+  caa: []
+  caa_note: >-
+    No CAA record published. The automated probe recorded wfgqda.r23.35.cn.,
+    which is the CNAME target in the resolution chain, not a CAA record.
+  spf: true
+  spf_record: v=spf1 include:spf.163.com -all
+  dmarc: true
+  dmarc_policy: quarantine
+  dmarc_record: v=DMARC1; p=quarantine; fo=1; ruf=mailto:dmarc@qiye.163.com; rua=mailto:dmarc_report@qiye.163.com

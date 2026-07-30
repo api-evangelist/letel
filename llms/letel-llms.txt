@@ -1,0 +1,45 @@
+# Letel (Shanghai Letel Communication Equipment (Group) Co., Ltd.)
+
+> Chinese manufacturer of information and communication network infrastructure,
+> founded March 1992 and headquartered in Shanghai. Letel builds data center
+> physical infrastructure — cabinet, cold-aisle and containerized micromodules,
+> IT cabins, and cabinets — alongside communication cabling, optical
+> communication devices, data communication equipment, broadband access
+> equipment, and structural components for notebooks and servers.
+
+## Status
+
+Letel publishes no public API, no developer portal, and no developer
+documentation. This entry exists in the API Evangelist network as a company
+profile, not an API profile. It was surfaced as a portfolio company of Qiming
+Venture Partners.
+
+## Company
+
+- [Home](https://letel.com.cn/): Corporate site (Chinese; English mirror at /en/index.html)
+- [Company Profile](https://letel.com.cn/page-56169.html): History, scale, and organization
+- [Qualifications and Honors](https://letel.com.cn/page-56172.html)
+- [Sales Network](https://letel.com.cn/page-56171.html): 20+ nationwide service locations
+- [Contact Us](https://letel.com.cn/page-56167.html): Shanghai HQ 021-67606688; Maanshan, Anhui 0555-8282800
+
+## Products
+
+- [Product Center](https://letel.com.cn/cate-56166.html)
+- [Pallet IT Cabins](https://letel.com.cn/cate-56166-60571.html)
+- [Cabinet Micromodules](https://letel.com.cn/cate-56166-60688.html)
+- [Cold Aisle Micromodules](https://letel.com.cn/cate-56166-60574.html)
+- [Container Micromodules](https://letel.com.cn/cate-56166-60595.html)
+- [Cabinet Products](https://letel.com.cn/cate-56166-60693.html)
+
+## News
+
+- [News Center](https://letel.com.cn/list-56165.html)
+- [Company News](https://letel.com.cn/list-56165-60568.html)
+- [Industry News](https://letel.com.cn/list-56165-60569.html)
+- [Media Coverage](https://letel.com.cn/list-56165-60570.html)
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/letel/refs/heads/main/apis.yml): APIs.json profile
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/letel/refs/heads/main/security/letel-domain-security.yml): TLS/DNS posture probe
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/letel/refs/heads/main/well-known/letel-well-known.yml): negative result

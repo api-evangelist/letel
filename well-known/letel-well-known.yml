@@ -1,0 +1,27 @@
+generated: '2026-07-19'
+method: searched
+source: https://letel.com.cn
+host: https://letel.com.cn
+result: none
+notes: >-
+  Every /.well-known/ path was probed on the only host this company publishes.
+  Nothing returned 200, so no raw documents were saved and no WellKnown or
+  SecurityTxt pointer is wired into apis.yml. This file records the negative
+  result so re-runs do not re-probe blind. 403 responses come from the site's
+  JavaScript bot-check WAF, which rejects non-browser requests; they are not
+  evidence that a document exists behind them.
+documents: []
+probed:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 403
+- path: /llms.txt
+  status: 0
+  note: connection rejected by WAF
